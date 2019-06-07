@@ -26,6 +26,7 @@
 #include <sys/mman.h>
 #include <fcntl.h>
 #include <sys/stat.h>
+#include <sys/sysmacros.h>
 #include <ctype.h>
 #include <errno.h>
 #include <fnmatch.h>
