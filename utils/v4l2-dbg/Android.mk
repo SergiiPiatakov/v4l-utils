@@ -11,8 +11,6 @@ LOCAL_C_INCLUDES := \
     bionic \
     external/stlport/stlport
 
-LOCAL_SHARED_LIBRARIES := libstlport
-
 LOCAL_SRC_FILES := v4l2-dbg.cpp
 
 include $(BUILD_EXECUTABLE)

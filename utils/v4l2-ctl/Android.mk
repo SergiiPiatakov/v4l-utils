@@ -14,8 +14,6 @@ LOCAL_C_INCLUDES := \
     bionic \
     external/stlport/stlport
 
-LOCAL_SHARED_LIBRARIES := libstlport
-
 LOCAL_SRC_FILES := \
     v4l2-ctl.cpp v4l2-ctl-common.cpp v4l2-ctl-tuner.cpp \
     v4l2-ctl-io.cpp v4l2-ctl-stds.cpp v4l2-ctl-vidcap.cpp v4l2-ctl-vidout.cpp \
