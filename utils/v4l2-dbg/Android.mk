@@ -7,11 +7,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_CFLAGS += -Wno-error
 
-LOCAL_C_INCLUDES := \
-    $(LOCAL_PATH)/../.. \
-    $(LOCAL_PATH)/../../include \
-    bionic \
-    external/stlport/stlport
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/../..
 
 LOCAL_SRC_FILES := v4l2-dbg.cpp
 
